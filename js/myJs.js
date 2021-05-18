@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Thích gì mai anh mua quaaa',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Ăng gì phại nói'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,23 +109,23 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Gửi nhưng cũng toi thích làm 2 nút",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Okiiiii<3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'CHỐT KÈO NHO',
+                text: "Bé dun chờ hết dịch rùi mình lên đồ đi chơi haaaaaaa",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'https://www.facebook.com/ducbao1803/';
                   }
             })
         }
